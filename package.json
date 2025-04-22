@@ -14,5 +14,8 @@
         "vite": "^6.2.4"
     },
     "name": "",
-    "version": ""
+    "version": "",
+    "dependencies": {
+        "tippy.js": "^6.3.7"
+    }
 }
