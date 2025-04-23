@@ -1,0 +1,241 @@
+:root{
+    --colore-primario: #14213d;
+    --colore-secondario: #fca311;
+    --colore-terziario: #e5e5e5;
+    --colore-font-navbar: rgb(0,0,0, 60%);
+}
+
+@media (max-width: 1200px){
+  .div-rev-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 440px){
+  .btn-mobile {
+    display: none !important;
+}
+}
+
+
+@media (max-width: 991px) {
+
+    .div-guest{
+        margin-top: -50px;
+    }
+    .personal-dash{
+        display: flex!important;
+        flex-direction: column;
+        justify-content: center!important;
+    }
+    .personal-sale{
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 10px!important;
+    }
+
+    .navbar{
+        margin-bottom: -80px!important;
+    }
+    .div-login {
+        width: 100%;
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px; 
+        text-align: center;
+    }
+
+   
+    .navlink{
+        width: 100%;
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px; 
+        text-align: center;
+    }
+    .navlink li {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #ddd; /* Linea sottile grigia */
+        padding-bottom: 8px;
+        margin-bottom: 8px;
+    }
+ 
+  
+
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    footer .col-md-6,
+    footer .col-lg-6 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /* Centra le due colonne una a fianco all'altra */
+    footer .col-lg-6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 30px; /* Spazio tra le colonne */
+        margin-top: 20px; /* Aggiungi spazio tra il logo e le voci */
+    }
+
+    /* Centra meglio le voci del menu */
+    footer .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 10px;
+    }
+
+    footer img {
+        margin-right: 60px;
+        width: 40px;
+    }
+    
+
+
+    /* CATEGORIE */
+    .scroller-wrapper {
+        width: 100% !important; /* Riduce la larghezza dello scroller */
+        margin-bottom: -40px!important;
+    }
+
+    .scroller-track {
+        gap: 0.5rem !important; /* Riduce il gap tra gli elementi */
+    }
+
+    .card-img-top.photo-box {
+        width: 100px !important; /* Riduce la larghezza dell'immagine */
+        height: 100px !important; /* Riduce l'altezza dell'immagine */
+    }
+
+    .card.photo-container {
+        padding: 5px !important; /* Riduce il padding della card */
+    }
+
+    .card-body, .card-cat {
+        padding: 0.3rem 0 !important; /* Riduce il padding dei contenuti della card */
+    }
+
+    .card-text {
+        font-size: 0.8rem !important; /* Riduce la dimensione del testo */
+    }
+
+    .btn-welcome {
+        margin-bottom: 10px !important; /* Riduce il margine inferiore del bottone */
+    }
+
+
+    /* TEXT-GUEST */
+    
+
+    /* ANNUNCI */
+
+    .div-annunci{
+        margin-top: -100px;
+    }
+
+    .card-ann {
+        max-height: 280px !important;
+        width: 100% !important; /* Usa il 100% della larghezza disponibile */
+        margin-bottom: 20px!important; /* Diminuisci il margine inferiore per più spazio */
+    }
+
+    .category-ann, .title-ann, .price-ann{
+        padding-left: 10px!important;
+    }
+
+    .price-ann {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .div-card{
+        margin-bottom: 150px!important;
+    }
+    
+    
+    .anchor-ann {
+        display: block;
+        text-align: center; /* Centra il link orizzontalmente */
+        margin-top: 10px;
+    }
+
+    .div-scopri{
+
+        margin-top: -100px;
+        text-align: center!important;
+
+    }
+
+  
+
+    /* REVISORI */
+    .full-width-section {
+        height: 350px!important; /* Altezza maggiore per dispositivi mobili */
+    }
+    br{
+        display: none;
+    }
+   .div-revisori{
+    margin-top: 10px!important;
+   }
+
+   .btn-revisore{
+    display: none!important;
+   }
+   
+
+   .inp-search{
+    margin-bottom: -80px!important;
+    height: 40px;
+   }
+
+   .btn-rev{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+}
+
+
+   /* LOGIN E REGISTER */
+   .col-login {
+    border: none!important;
+    box-shadow: none!important;
+    }
+
+
+    .col-register{
+    box-shadow: none!important;
+    }
+
+
+    
+
+   
+
+
+
+
+
+
